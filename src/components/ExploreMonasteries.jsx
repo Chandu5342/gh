@@ -28,11 +28,11 @@ const ExploreMonasteries = () => {
       difficulty: 'Easy',
       waypoints: ['NH10', 'Rangpo', 'Gangtok', 'Rumtek'],
       stations: [
-        { id: 1, name: 'Railway Station', type: 'Starting Point', image: './images/photorealistic-timber-house-interior-with-wooden-decor-furnishings.jpg', description: 'Your journey begins at New Jalpaiguri Railway Station', distance: '0 km' },
-        { id: 2, name: 'Coronation Bridge', type: 'Landmark', image: './images/photorealistic-timber-house-interior-with-wooden-decor-furnishings.jpg', description: 'Historic bridge over River Teesta', distance: '12 km' },
-        { id: 3, name: 'Rangpo Border', type: 'Entry Point', image: './images/shot-panoramic-composition-bathroom.jpg', description: 'Welcome to Sikkim - Entry checkpoint', distance: '28 km' },
+        { id: 1, name: 'Railway Station', type: 'Starting Point', image: './images/img101.jpg', description: 'Your journey begins at New Jalpaiguri Railway Station', distance: '0 km' },
+        { id: 2, name: 'Coronation Bridge', type: 'Landmark', image: './images/img101.jpg', description: 'Historic bridge over River Teesta', distance: '12 km' },
+        { id: 3, name: 'Rangpo Border', type: 'Entry Point', image: './images/img12.jpg', description: 'Welcome to Sikkim - Entry checkpoint', distance: '28 km' },
         { id: 4, name: 'Mountain Restaurant', type: 'Rest Stop', image: './images/img105.jpg', description: 'Traditional Sikkimese cuisine stop', distance: '38 km' },
-        { id: 5, name: 'Monastery Entrance', type: 'Destination', image: './images/img12.jpg', image360: 'https://pannellum.org/images/from-train-derailment-site.jpg', description: 'You have arrived at the sacred monastery', distance: '45 km' }
+        { id: 5, name: 'Monastery Entrance', type: 'Destination', image: './images/img12.jpg', image360: './images/img12.jpg', description: 'You have arrived at the sacred monastery', distance: '45 km' }
       ]
     },
     // ... other routes

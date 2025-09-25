@@ -83,9 +83,9 @@ export default function PanoramaPage() {
     monasteryGround: {
       image: "/images/img16.png",
       hotspots: [
-        { position: [90, -50, -85], label: "View Statue", type: "zoom", info: "Ancient statue in the ground floor" },
+        { position: [90, -50, -85], label: "View Statue", type: "zoom", info: "Tathagata is just one of the titles of a buddha, but was the one most frequently employed by Siddhartha Gautama, and the generally adopted interpretation is one who has thus  arrived " },
         { position: [-150, -50, 50], label: "Go Upstairs", to: "monasteryFirst", type: "navigate" },
-        { position: [50, -20, 50], label: "View Artifact", type: "zoom", info: "Special artifact on display" }
+        { position: [50, -20, 50], label: "View Artifact", type: "zoom", info: "Tathagata is just one of the titles of a buddha, but was the one most frequently employed by Siddhartha Gautama, and the generally adopted interpretation is one who has thus  arrived " }
       ],
     },
     monasteryFirst: {

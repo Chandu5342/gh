@@ -35,6 +35,57 @@ const ExploreMonasteries = () => {
         { id: 5, name: 'Monastery Entrance', type: 'Destination', image: './images/img12.jpg', image360: './images/img12.jpg', description: 'You have arrived at the sacred monastery', distance: '45 km' }
       ]
     },
+    {
+      id: 2,
+      name: 'Valley Scenic Route',
+      description: 'Beautiful valley route via Teesta Valley',
+      distance: '52 km',
+      duration: '3 hours',
+      difficulty: 'Moderate',
+      waypoints: ['Teesta Valley', 'Singtam', 'Ranipool', 'Rumtek'],
+      stations: [
+        {
+          id: 1,
+          name: 'Railway Station',
+          type: 'Starting Point',
+          image: 'https://images.pexels.com/photos/2850028/pexels-photo-2850028.jpeg?auto=compress&cs=tinysrgb&w=300',
+          description: 'Your journey begins at New Jalpaiguri Railway Station',
+          distance: '0 km'
+        },
+        {
+          id: 2,
+          name: 'Teesta Valley Viewpoint',
+          type: 'Scenic Stop',
+          image: 'https://images.pexels.com/photos/3109673/pexels-photo-3109673.jpeg?auto=compress&cs=tinysrgb&w=300',
+          description: 'Breathtaking views of Teesta River valley',
+          distance: '15 km'
+        },
+        {
+          id: 3,
+          name: 'Singtam Market',
+          type: 'Local Market',
+          image: 'https://images.pexels.com/photos/6913988/pexels-photo-6913988.jpeg?auto=compress&cs=tinysrgb&w=300',
+          description: 'Local market with traditional crafts',
+          distance: '32 km'
+        },
+        {
+          id: 4,
+          name: 'Ranipool Junction',
+          type: 'Junction',
+          image: 'https://images.pexels.com/photos/2850028/pexels-photo-2850028.jpeg?auto=compress&cs=tinysrgb&w=300',
+          description: 'Important road junction to various destinations',
+          distance: '44 km'
+        },
+        {
+          id: 5,
+          name: 'Monastery Entrance',
+          type: 'Destination',
+          image: 'https://images.pexels.com/photos/6913988/pexels-photo-6913988.jpeg?auto=compress&cs=tinysrgb&w=300',
+          description: 'You have arrived at the sacred monastery',
+          distance: '52 km'
+        }
+      ]
+    }
     // ... other routes
   ];
 
